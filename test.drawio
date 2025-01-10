@@ -19,7 +19,7 @@
           <mxGeometry x="-2200" y="-230" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-9" value="data_processor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="200" height="200" as="geometry" />
+          <mxGeometry x="-120" y="40" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-10" value="pds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OPWOXoO3-NqjA48vfaCd-9">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
@@ -28,7 +28,7 @@
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-12" value="middle_file_type" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="40" width="200" height="200" as="geometry" />
+          <mxGeometry x="-120" y="280" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-13" value=".csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OPWOXoO3-NqjA48vfaCd-12">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
@@ -37,9 +37,9 @@
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-15" value="analysis_structure" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="200" height="200" as="geometry" />
+          <mxGeometry x="120" y="40" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="OPWOXoO3-NqjA48vfaCd-16" value="pds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OPWOXoO3-NqjA48vfaCd-15">
+        <mxCell id="OPWOXoO3-NqjA48vfaCd-16" value="time_serias_check&lt;div&gt;NaN_check&lt;/div&gt;&lt;div&gt;duplicate_check&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OPWOXoO3-NqjA48vfaCd-15">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-17" value="polars" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OPWOXoO3-NqjA48vfaCd-15">
