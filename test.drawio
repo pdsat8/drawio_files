@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OPWOXoO3-NqjA48vfaCd-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPWOXoO3-NqjA48vfaCd-5" target="OPWOXoO3-NqjA48vfaCd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-5" value="database" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-360" y="40" width="200" height="200" as="geometry">
             <mxRectangle x="-370" y="40" width="90" height="30" as="alternateBounds" />
@@ -18,8 +21,16 @@
         <mxCell id="OPWOXoO3-NqjA48vfaCd-6" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2200" y="-230" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="OPWOXoO3-NqjA48vfaCd-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPWOXoO3-NqjA48vfaCd-9" target="OPWOXoO3-NqjA48vfaCd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPWOXoO3-NqjA48vfaCd-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="OPWOXoO3-NqjA48vfaCd-9" target="OPWOXoO3-NqjA48vfaCd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-9" value="data_processor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="40" width="200" height="200" as="geometry" />
+          <mxGeometry x="-120" y="40" width="200" height="200" as="geometry">
+            <mxRectangle x="-120" y="40" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OPWOXoO3-NqjA48vfaCd-10" value="pds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OPWOXoO3-NqjA48vfaCd-9">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
